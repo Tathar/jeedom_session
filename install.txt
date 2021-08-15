@@ -1,0 +1,12 @@
+1 - copier le fichier config.ini dans le dossier C:\ProgramData\Jeedom_session\
+2 - modifier le fichier config.ini comme suis :
+    modifier l'adresse de jeedom 
+    modifier le/les nom dutilisateur et les ID Jeedom associés
+
+3 - copier le fichier dist/jeedom_session.exe dans le dossier C:\ProgramData\Jeedom_session\
+3 - ouvrir une invite de commande en tant qu'administrateur
+4 - lancer la commande "C:\ProgramData\Jeedom_session\jeedom_session.exe install"
+5 - dans le gestionnaire de services modifier le service jeedom session comme suis :
+    dans l'onglet general:
+        type de demmarage "auto"
+        cliquer sur démmarer
